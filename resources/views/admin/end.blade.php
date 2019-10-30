@@ -10,6 +10,7 @@
 <script src="{{ asset('template/admin/metronic4.5.6/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js') }}" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 <!-- BEGIN PAGE LEVEL PLUGINS -->
+
 <script src="{{ asset('template/admin/metronic4.5.6/global/plugins/moment.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('template/admin/metronic4.5.6/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('template/admin/metronic4.5.6/global/plugins/morris/morris.min.js') }}" type="text/javascript"></script>
@@ -40,6 +41,7 @@
 <script src="{{ asset('template/admin/metronic4.5.6/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js') }}" type="text/javascript"></script>
 <script src="{{ asset('template/admin/metronic4.5.6/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js') }}" type="text/javascript"></script>
 <script src="{{ asset('template/admin/metronic4.5.6/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js') }}" type="text/javascript"></script>
+
 <!-- END PAGE LEVEL PLUGINS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
 <script src="{{ asset('template/admin/metronic4.5.6/global/scripts/app.min.js') }}" type="text/javascript"></script>
