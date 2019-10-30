@@ -2,9 +2,10 @@
 <div class="page-content-wrapper">
     <!-- BEGIN CONTENT BODY -->
     <div class="page-content">
+        
         <!-- BEGIN PAGE HEADER-->
-        <!-- BEGIN THEME PANEL -->
-        <div class="theme-panel hidden-xs hidden-sm">
+        <!-- BEGIN THEME PANEL ( is hidden ) --> 
+        <div class="theme-panel hidden hidden-sm ">
             <div class="toggler"> </div>
             <div class="toggler-close"> </div>
             <div class="theme-options">
@@ -79,7 +80,7 @@
         </div>
         <!-- END THEME PANEL -->
         <!-- BEGIN PAGE BAR -->
-        <div class="page-bar">
+        <div class="page-bar " >
             <ul class="page-breadcrumb">
                 <li>
                     <a href="index.html">Home</a>
@@ -89,7 +90,7 @@
                     <span>Page Layouts</span>
                 </li>
             </ul>
-            <div class="page-toolbar">
+            <div class="page-toolbar hidden">
                 <div class="btn-group pull-right">
                     <button type="button" class="btn green btn-sm btn-outline dropdown-toggle" data-toggle="dropdown"> Actions
                         <i class="fa fa-angle-down"></i>
@@ -118,14 +119,23 @@
         </div>
         <!-- END PAGE BAR -->
         <!-- BEGIN PAGE TITLE-->
-        <h3 class="page-title"> Header Language Bar
-            <small>language bar in header</small>
+        <h3 class="page-title"> 
+                @section('title')
+                Header Language Bar
+                @show
+                <small>
+                @section('small-title')
+                language bar in header
+                @show
+                </small>
         </h3>
         <!-- END PAGE TITLE-->
         <!-- END PAGE HEADER-->
+        @section('content')
         <div class="note note-info">
             <p> Header language bar for language selection. </p>
         </div>
+        @show
     </div>
     <!-- END CONTENT BODY -->
 </div>
