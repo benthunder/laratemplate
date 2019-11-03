@@ -15,7 +15,7 @@
     <div class="page-container">
         @include('admin.sidebar')
         @include('admin.content')
-        @include('admin.quick-sidebar')
+        {{-- @include('admin.quick-sidebar') --}}
     </div>
     <!-- END CONTAINER -->
     @include('admin.footer')
