@@ -6,7 +6,7 @@
 <!--<![endif]-->
 @include('admin.head')
 
-<body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white page-md">
+<body class="page-header-fixed page-sidebar-fixed page-sidebar-closed-hide-logo page-content-white page-md">
     @include('admin.header')
     <!-- BEGIN HEADER & CONTENT DIVIDER -->
     <div class="clearfix"> </div>

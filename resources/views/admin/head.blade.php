@@ -21,12 +21,9 @@
     <link href="{{ asset('template/admin/metronic4.5.6/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN PAGE LEVEL PLUGINS -->
-
-    <link href="{{ asset('template/admin/metronic4.5.6/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('template/admin/metronic4.5.6/global/plugins/morris/morris.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('template/admin/metronic4.5.6/global/plugins/fullcalendar/fullcalendar.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('template/admin/metronic4.5.6/global/plugins/jqvmap/jqvmap/jqvmap.css') }}" rel="stylesheet" type="text/css" />
-
+    @section('plugin-css')
+        
+    @show 
     <!-- END PAGE LEVEL PLUGINS -->
     <!-- BEGIN THEME GLOBAL STYLES -->
     <link href="{{ asset('template/admin/metronic4.5.6/global/css/components-md.min.css') }}" rel="stylesheet" id="style_components" type="text/css" />
