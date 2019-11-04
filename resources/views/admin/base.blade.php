@@ -4,22 +4,22 @@
 <!--[if !IE]><!-->
 <html lang="en">
 <!--<![endif]-->
-@include('admin.head')
+@include('admin.layout.head')
 
 <body class="page-header-fixed page-sidebar-fixed page-sidebar-closed-hide-logo page-content-white page-md">
-    @include('admin.header')
+    @include('admin.layout.header')
     <!-- BEGIN HEADER & CONTENT DIVIDER -->
     <div class="clearfix"> </div>
     <!-- END HEADER & CONTENT DIVIDER -->
     <!-- BEGIN CONTAINER -->
     <div class="page-container">
-        @include('admin.sidebar')
-        @include('admin.content')
-        @include('admin.quick-sidebar')
+        @include('admin.layout.sidebar')
+        @include('admin.layout.content')
+        {{-- @include('admin.layout.quick-sidebar') --}}
     </div>
     <!-- END CONTAINER -->
-    @include('admin.footer')
-    @include('admin.end')
+    @include('admin.layout.footer')
+    @include('admin.layout.end')
 </body>
 
 </html>
