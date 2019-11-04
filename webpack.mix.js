@@ -11,6 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
+<<<<<<< HEAD
 mix.js("resources/js/app.js", "public/js")
    .sass("resources/sass/app.scss", "public/css")
    .copyDirectory('resources/metronic4.5.6', 'public/template/admin')
@@ -20,3 +21,7 @@ mix.js("resources/js/app.js", "public/js")
    // Admin custom
    .js("resources/js/admin.js", "public/js/admin")
    .sass("resources/sass/admin.scss", "public/css/admin");
+=======
+mix.js('resources/js/app.js', 'public/js')
+   .sass('resources/sass/app.scss', 'public/css');
+>>>>>>> test

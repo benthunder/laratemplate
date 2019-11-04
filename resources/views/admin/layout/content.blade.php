@@ -4,8 +4,8 @@
     <div class="page-content">
         
         <!-- BEGIN PAGE HEADER-->
-        <!-- BEGIN THEME PANEL ( is hidden ) --> 
-        <div class="theme-panel hidden hidden-sm ">
+        <!-- BEGIN THEME PANEL -->
+        {{-- <div class="theme-panel hidden-xs hidden-sm">
             <div class="toggler"> </div>
             <div class="toggler-close"> </div>
             <div class="theme-options">
@@ -77,11 +77,12 @@
                     </select>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- END THEME PANEL -->
         <!-- BEGIN PAGE BAR -->
         <div class="page-bar " >
             <ul class="page-breadcrumb">
+                @section('breadcrumb')
                 <li>
                     <a href="index.html">Home</a>
                     <i class="fa fa-circle"></i>
@@ -89,8 +90,9 @@
                 <li>
                     <span>Page Layouts</span>
                 </li>
+                @show
             </ul>
-            <div class="page-toolbar hidden">
+            {{-- <div class="page-toolbar">
                 <div class="btn-group pull-right">
                     <button type="button" class="btn green btn-sm btn-outline dropdown-toggle" data-toggle="dropdown"> Actions
                         <i class="fa fa-angle-down"></i>
@@ -115,7 +117,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> --}}
         </div>
         <!-- END PAGE BAR -->
         <!-- BEGIN PAGE TITLE-->

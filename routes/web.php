@@ -11,6 +11,8 @@
 |
  */
 
-Route::get('/', function () {
-    return view('demo');
+Route::prefix('admin')->group(function () {
+    Route::get('blank', function () {
+        return view('admin.base');
+    });
 });
