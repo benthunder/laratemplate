@@ -83,6 +83,12 @@
                             <span class="title">Card</span>
                         </a>
                     </li>
+
+                    <li class="nav-item  ">
+                        <a href="ui_colors.html" class="nav-link ">
+                            <span class="title">Validate ( Front & Back )</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
 
